@@ -1,0 +1,130 @@
+body {
+	font-family: 'Roboto', 'Helvetica Nue', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.head {
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+	width: 100vw;
+	background-color: rgba(52, 58, 64, 1);
+}
+
+.head_context {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	width: 100vw;
+}
+
+.head_context h1 a {
+	/*font-size: 53px;*/
+	font-size: 8vh;
+	text-decoration: none;
+	color: white;
+}
+
+.head_context h1 {
+	/*font-size: 53px;*/
+	font-size: 8vh;
+	color: white;
+}
+
+.head_name a {
+	/*font-size: 53px;*/
+	font-size: 8vh;
+	color: white;
+	text-decoration: none;
+}
+
+.head_menu {
+	/*font-size: 24px;*/
+	font-size: 3vh;
+	color: white;
+}
+
+.head_menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	width: 100vw;
+	height: 84vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	background-color: rgba(233, 236, 239, 1);
+}
+
+.content_head {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100vw;
+}
+
+.content_head_name {
+	/*font-size: 53px;*/
+	font-size: 8vh;
+}
+
+.content_head_context {
+	width: 40vw;
+	/*font-size: 24px;*/
+	font-size: 3vh;
+}
+
+.attention {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 5vw;
+	height: 6vh;
+	width: 100vw;
+	/*font-size: 20px;*/
+	font-size: 2.8vh;
+	background-color: rgba(52, 58, 64, 1);
+	color: white;
+}
+
+.content_img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 84vh;
+}
+
+.content_img_pep {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.content_img_pep img {
+	height: 24vh;
+}
+
+.content_img_pep div {
+	height: 24vh;
+	width: 0.75vw;
+	background-color: rgba(52, 58, 64, 1);
+	border-radius: 2px;
+	margin-left: 1vw;
+}
+
+.content_img_pep p {
+	width: 15vw;
+	/*font-size: 16px;*/
+	font-size: 2.6vh;
+	margin-right: 2vw;
+	text-align: right;
+}
